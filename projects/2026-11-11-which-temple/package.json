@@ -1,0 +1,13 @@
+{
+  "name": "which-temple",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -n server,client \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "test": "npm run test -w server",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": { "concurrently": "^9.0.0" }
+}
