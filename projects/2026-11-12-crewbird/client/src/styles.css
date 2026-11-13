@@ -1,0 +1,22 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7f9; color: #1d2330; }
+.app { max-width: 1200px; margin: 0 auto; padding: 16px; }
+header { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+header h1 { margin: 0; font-size: 22px; }
+nav button { margin-right: 6px; text-transform: capitalize; }
+nav .active { background: #1d2330; color: #fff; }
+.kpis { margin-left: auto; display: flex; gap: 16px; font-weight: 600; }
+button { padding: 6px 12px; border: 1px solid #c5cad3; border-radius: 6px; background: #fff; cursor: pointer; }
+input, select, textarea { padding: 6px; border: 1px solid #c5cad3; border-radius: 6px; }
+.columns { display: flex; gap: 12px; overflow-x: auto; margin: 16px 0; align-items: flex-start; }
+.col { min-width: 220px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.col h3 { text-transform: capitalize; margin: 0; }
+.card { background: #fff; border-radius: 8px; padding: 10px; border-left: 4px solid #8a94a6; display: flex; flex-direction: column; gap: 4px; }
+.status-scheduled { border-color: #3b82f6; } .status-in_progress { border-color: #f59e0b; }
+.status-done, .status-invoiced { border-color: #8b5cf6; } .status-paid { border-color: #16a34a; } .status-lead { border-color: #ef4444; }
+.badge { font-size: 12px; text-transform: uppercase; color: #5b6475; }
+.muted { color: #5b6475; font-size: 13px; }
+.form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 16px 0; }
+.form h3 { width: 100%; margin: 0; }
+.error { color: #b91c1c; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eceef2; }
