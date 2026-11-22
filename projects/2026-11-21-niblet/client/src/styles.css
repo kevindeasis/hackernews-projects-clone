@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; background: #fdf8f3; color: #2d2a26; margin: 0; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+h1 small { font-weight: 400; font-size: .5em; color: #8a7f74; }
+nav { display: flex; gap: 8px; margin: 12px 0; }
+button, input, select { font: inherit; padding: 6px 10px; border: 1px solid #d8cfc4; border-radius: 6px; background: #fff; }
+button { cursor: pointer; } button.on { background: #f08a4b; color: #fff; border-color: #f08a4b; }
+.card { background: #fff; border: 1px solid #eadfd2; border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+form.card { display: flex; flex-wrap: wrap; gap: 8px; } form.card input[placeholder^="Food"] { flex: 1; min-width: 160px; }
+ul { list-style: none; padding: 0; margin: 0; } li { padding: 6px 0; border-top: 1px solid #f3ece3; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.meal { color: #8a7f74; font-size: .85em; width: 70px; } .tag { background: #fde8d6; border-radius: 10px; padding: 1px 8px; font-size: .75em; }
+.sev { margin-left: auto; } .sev.mild { background: #fff3c4; } .sev.moderate { background: #ffd9b3; } .sev.severe { background: #ffb3b3; }
+.x { border: none; background: none; color: #b33; }
+table { width: 100%; border-collapse: collapse; } th, td { text-align: left; padding: 6px; border-bottom: 1px solid #f3ece3; } tr.suspect td { background: #fff1ee; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; } .ok { border-color: #8bc48a; } .warn { border-color: #e88; }
+.muted { color: #8a7f74; } pre { white-space: pre-wrap; }
