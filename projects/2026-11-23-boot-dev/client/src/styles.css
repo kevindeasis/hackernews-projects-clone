@@ -1,0 +1,10 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #12141c; color: #e6e8ef; }
+header { display: flex; gap: 14px; align-items: center; padding: 10px 20px; background: #1b1e2b; }
+main { max-width: 760px; margin: 20px auto; padding: 0 16px; }
+.card { background: #1b1e2b; border-radius: 8px; padding: 12px 18px; margin: 14px 0; }
+.bar { width: 100px; height: 8px; background: #2c3042; border-radius: 4px; overflow: hidden; display: inline-block; }
+.bar i { display: block; height: 100%; background: #f5a623; }
+button { background: #f5a623; color: #111; border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; font-weight: 600; margin-top: 10px; }
+button.link { background: none; color: #7db4ff; padding: 0; margin: 0; font-weight: 400; }
+input { padding: 8px; border-radius: 6px; border: 1px solid #444; background: #12141c; color: inherit; margin-right: 8px; }
+.ok { color: #4cd37b; } .bad { color: #ff6b6b; } small { color: #99a; } header .link { margin-left: auto; }
