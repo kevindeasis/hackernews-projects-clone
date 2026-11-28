@@ -1,0 +1,34 @@
+:root { --fg:#1b1f23; --muted:#6a737d; --accent:#d6336c; --bg:#fafafa; --card:#fff; --line:#e4e6e8; }
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+.wrap { max-width:880px; margin:0 auto; padding:0 16px 48px; }
+header { display:flex; justify-content:space-between; align-items:center; padding:16px 0; border-bottom:1px solid var(--line); }
+header nav a { margin-left:16px; color:var(--fg); text-decoration:none; }
+.logo { font-weight:700; font-size:20px; color:var(--fg); text-decoration:none; }
+.logo span { color:var(--accent); }
+a { color:var(--accent); }
+h1 { font-size:26px; margin:24px 0 12px; }
+.filters { display:flex; gap:8px; margin-bottom:16px; }
+.filters input { flex:1; }
+input, select, textarea { padding:8px 10px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
+button { padding:8px 14px; border:0; border-radius:6px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; }
+button:disabled { opacity:.5; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; text-decoration:none; color:var(--fg); }
+.card h3 { margin:8px 0 0; }
+.muted { color:var(--muted); font-size:14px; }
+.badge { font-size:12px; padding:2px 8px; border-radius:99px; background:#eee; }
+.badge.funding { background:#fff0f6; color:var(--accent); }
+.badge.testing { background:#fff4e0; color:#a15c00; }
+.badge.complete { background:#e6f6ea; color:#1a7f37; }
+.bar { height:8px; background:#eee; border-radius:4px; overflow:hidden; margin:10px 0 4px; }
+.bar div { height:100%; background:var(--accent); }
+.meta { font-size:14px; }
+.box { display:flex; flex-direction:column; gap:10px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; margin:16px 0; }
+.note { background:#fff8e1; padding:10px; border-radius:6px; }
+.error { color:#c92a2a; } .ok { color:#1a7f37; }
+table { width:100%; border-collapse:collapse; background:#fff; }
+th, td { padding:8px; border:1px solid var(--line); text-align:left; }
+.det { color:#c92a2a; }
+.backers { padding-left:18px; } .refunded { text-decoration:line-through; color:var(--muted); }
+footer { margin-top:40px; color:var(--muted); font-size:13px; }
